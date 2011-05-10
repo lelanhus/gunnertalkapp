@@ -11,6 +11,8 @@ gem 'coffee-script'
 gem 'uglifier'
 gem 'jquery-rails'
 
+gem 'devise'
+
 group :production do
   gem 'therubyracer-heroku', '0.8.1.pre3'
   gem 'pg', :require => 'pg'
