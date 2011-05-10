@@ -1,7 +1,11 @@
 $background: #2C333D;
 $font-color: #E1C799;
 
-* {
+body {
   background: $background;
   color: $font-color;
+}
+
+#chat {
+  border-radius: 5px;
 }

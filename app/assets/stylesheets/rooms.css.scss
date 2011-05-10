@@ -3,7 +3,15 @@
   They will automatically be included in application.css.
   You can use Sass (SCSS) here: http://sass-lang.com/
 */
+$font-color: #2C333D;
 
-#rooms {
-  
+#chat {
+  background: #FFFDF3;
+  color: $font-color;
+  ol {
+    margin-left: 0.5em;
+  }
+  .me {
+    background: #FFF8D9;
+  }
 }

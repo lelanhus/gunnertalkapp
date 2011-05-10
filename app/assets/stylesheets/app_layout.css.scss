@@ -42,3 +42,11 @@ body {
     @extend .grid_12;
   }
 }
+
+/* Rooms Show */
+#rooms {
+  #chat, #members {
+    @extend .column;
+    @extend .grid_6;
+  }
+}
