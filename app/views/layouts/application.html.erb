@@ -7,10 +7,18 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
-
-<%= yield %>
-
+  <header id="header">
+    <h1>GunnerTalk</h1>
+  </header>
+  
+  <div id="content">
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+    <%= yield %>
+  </div>
+  
+  <footer id="footer">
+    &copy;2011&ndash; Me.
+  </footer>
 </body>
 </html>
