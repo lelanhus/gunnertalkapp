@@ -34,3 +34,11 @@
   	display: inline-block;
   }
 }
+
+body {
+  @extend .row;
+  #header, #content, #footer {
+    @extend .column;
+    @extend .grid_12;
+  }
+}
