@@ -2,6 +2,8 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.1.0.beta1'
 
+gem 'sqlite3'
+
 # Asset template engines
 gem 'json'
 gem 'sass'
